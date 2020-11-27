@@ -1,0 +1,7 @@
+.frog {
+  background: radial-gradient(60% 56% at 50% 52%, #2c0175 49%, transparent 50%) 50% 50%/100% 100%, radial-gradient(62% 62% at 50% 51%, #96f046 49%, transparent 50%) 50% 50%/100% 100%, radial-gradient(70% 80% at 50% 52%, #cffc03 49%, transparent 50%) 50% 50%/100% 100%, radial-gradient(4em 4em at 5em 15em, #cff003 47%, transparent 50%), radial-gradient(4em 4em at 19em 15em, #cff003 47%, transparent 50%), radial-gradient(5em 1.75em at 7.2em 19em, #cff003 47%, transparent 50%), radial-gradient(6em 1.75em at 7.2em 20em, #cff003 47%, transparent 50%), radial-gradient(6em 1.75em at 7em 21em, #cff003 47%, transparent 50%), radial-gradient(5em 1.75em at 16.8em 19em, #cff003 47%, transparent 50%), radial-gradient(6em 1.75em at 16.8em 20em, #cff003 47%, transparent 50%), radial-gradient(6em 1.75em at 17em 21em, #cff003 47%, transparent 50%), radial-gradient(10% 8% at 31% 11%, #5e03fc 49%, transparent 50%) 50% 50%/100% 100%, radial-gradient(20% 22% at 34% 15%, #b0e8d5 49%, transparent 50%) 50% 50%/100% 100%, radial-gradient(25% 25% at 34% 15%, #cffc03 49%, transparent 50%) 50% 50%/100% 100%, radial-gradient(10% 8% at 69% 11%, #5e03fc 49%, transparent 50%) 50% 50%/100% 100%, radial-gradient(20% 22% at 66% 15%, #b0e8d5 49%, transparent 50%) 50% 50%/100% 100%, radial-gradient(25% 25% at 66% 15%, #cffc03 49%, transparent 50%) 50% 50%/100% 100%;
+  background-repeat: no-repeat;
+  font-size: 10px;
+  width: 24em;
+  height: 24em;
+}

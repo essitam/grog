@@ -1,0 +1,47 @@
+$r: rgb(207, 240, 3); // green feet / knees
+$rm: rgb(150, 240, 70); // mouth outline
+$rl: rgb(207, 252, 3); //body and eyes
+$o:  rgb(176, 232, 213); // yellow
+$b: rgb(94, 3, 252); //purple
+$m: rgb(44, 1, 117);
+$t: transparent;
+
+.frog {
+  background:
+     //mouth
+    radial-gradient(60% 56% at 50% 52%, $m 49%, $t 50%) 50% 50% / 100% 100%,
+    //mouth outline
+    radial-gradient(62% 62% at 50% 51%, $rm 49%, $t 50%) 50% 50% / 100% 100%,
+    //body
+    radial-gradient(70% 80% at 50% 52%, $rl 49%, $t 50%) 50% 50% / 100% 100%,
+    //left knee
+    radial-gradient( 4em 4em at 5em 15em,$r 47%,$t 50%),
+    //right knee
+    radial-gradient( 4em 4em at 19em 15em,$r 47%,$t 50%),
+    //left foot
+    radial-gradient( 5em 1.75em at 7.2em 19em,$r 47%,$t 50%),
+    radial-gradient( 6em 1.75em at 7.2em 20em,$r 47%,$t 50%),
+    radial-gradient( 6em 1.75em at 7.0em 21em,$r 47%,$t 50%),
+    //right foot
+    radial-gradient( 5em 1.75em at 16.8em 19em,$r 47%,$t 50%),
+    radial-gradient( 6em 1.75em at 16.8em 20em,$r 47%,$t 50%),
+    radial-gradient( 6em 1.75em at 17em 21em,$r 47%,$t 50%),
+    //left eye hole
+    radial-gradient(10% 8% at 31% 11%, $b 49%, $t 50%) 50% 50% / 100% 100%,
+    // left eyeball
+    radial-gradient(20% 22% at 34% 15%, $o 49%, $t 50%) 50% 50% / 100% 100%,
+    //left eye
+    radial-gradient(25% 25% at 34% 15%, $rl 49%, $t 50%) 50% 50% / 100% 100%,
+    //right eye hole
+    radial-gradient(10% 8% at 69% 11%, $b 49%, $t 50%) 50% 50% / 100% 100%,
+    // //right eyeball
+    radial-gradient(20% 22% at 66% 15%, $o 49%, $t 50%) 50% 50% / 100% 100%,
+    // //right eye
+    radial-gradient(25% 25% at 66% 15%, $rl 49%, $t 50%) 50% 50% / 100% 100%;
+
+  background-repeat: no-repeat;
+  font-size: 10px;
+  // outline: 1px solid #aaa;
+  width: 24em;
+  height: 24em;
+}
